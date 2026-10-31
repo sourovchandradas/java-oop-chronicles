@@ -114,10 +114,38 @@ class Dog {
 
 ---
 
+## Objects
 
+An object is an instance of a class. It represents a real entity created from a class blueprint and contains its own state and behavior.
 
+### Key Points
 
+- An instance of a class
+- Created using the `new` keyword
+- Maintains its own state (instance variables)
+- Can perform actions through methods
+- Lives in heap memory
+- Multiple objects can be created from the same class
+- Objects communicate through method calls
 
+### Example
+
+```java
+Dog dog1 = new Dog();
+Dog dog2 = new Dog();
+```
+
+## Explanation
+* **Dog** = Class
+* **dog1** = Object(Instance)
+* **dog2** = Object(Instance)
+* **new Dog()** = Creates a new object
+
+> **Takeaway**
+> An object is an instance of a class
+> 
+
+---
 
 
 
