@@ -73,7 +73,7 @@ OOP enables developers to model real-world entities, promote code reusability, a
 >
 > 
 
-## Class
+## Classes
 
 A class is a blueprint or template used to create objects. It defines the state (instance variables) and behavior (methods) that objects of that type will have.
 
