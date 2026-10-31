@@ -108,7 +108,7 @@ class Dog {
 * **age** = Instance Variable (State)
 * **bark()** = Method (Behavior)
 
-> **Takeway**
+> **Takeway:**
 > A class describes how to make objects.
 > 
 
@@ -141,7 +141,7 @@ Dog dog2 = new Dog();
 * **dog2** = Object(Instance)
 * **new Dog()** = Creates a new object
 
-> **Takeaway**
+> **Takeaway:**
 > An object is an instance of a class
 > 
 
