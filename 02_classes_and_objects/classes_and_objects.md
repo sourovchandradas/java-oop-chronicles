@@ -2,11 +2,11 @@
 
 ## Overview
 
-Object-Oriented Programming (OOP) is one of the fundamental programming paradigms used in Java. This chapter introduces the core building blocks of OOP: classes, objects, instance variables, and methods.
+Object-Oriented Programming (OOP) is one of the fundamental programming paradigms used in Java programming language. This documentation introduces the core building blocks of OOP: classes, objects, instance variables, and methods.
 
-A class acts as a blueprint for creating objects, while objects represent real-world entities that contain both data (state) and behavior. Through practical examples and projects, this chapter demonstrates how Java programs are built using objects that interact with one another.
+A class acts as a blueprint for creating objects, while objects represent real-world entities that contain both data (state) and behavior. Through practical examples and projects, this documentation demonstrates how Java programs are built using objects that interact with one another.
 
-This chapter also introduces object creation, reference variables, object interaction, inheritance, and method overriding, providing a solid foundation for understanding more advanced OOP concepts later in Java.
+This documentation also introduces object creation, reference variables, object interaction, inheritance, and method overriding, providing a solid foundation for understanding more advanced OOP concepts later in Java.
 
 This guide covers:
 
