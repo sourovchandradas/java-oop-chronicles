@@ -79,10 +79,13 @@ A class is a blueprint or template used to create objects. It defines the state 
 
 ### Key Points
 
-- Defines the structure of an object
+- Acts as a blueprint for creating objects
+- Defines an object's instance variable/state and method/behavior
 - Contains instance variables and methods
-- Used to create object instances
-- Acts as a blueprint or template
+- Used to create multiple object instances
+- Promotes code organization and reusability
+- Can inherit from another class
+- Can serve as a superclass or subclass
 
 ### Example
 
@@ -97,6 +100,13 @@ class Dog {
     }
 }
 ```
+
+## Explanation
+
+* **Dog** = Class (Blueprint)
+* **name** = Instance Variable (State)
+* **age** = Instance Variable (State)
+* **bark()** = Method (Behavior)
 
 > **Takeway**
 > A class describes how to make objects.
