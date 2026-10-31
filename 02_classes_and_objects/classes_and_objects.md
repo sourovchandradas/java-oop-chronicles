@@ -1,4 +1,4 @@
-# Java OOP Foundation - Classes and Objects
+# Java OOP - Classes and Objects
 
 ## Overview
 
