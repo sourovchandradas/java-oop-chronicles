@@ -46,6 +46,81 @@ This guide covers:
 
 ---
 
+## Introduction to OOP
+
+Object-Oriented Programming (OOP) is a programming paradigm that organizes software around classes and objects. A class acts as a blueprint, while an object is an instance created from that blueprint.
+
+Each object contains:
+
+- **State** (Instance Variables)
+- **Behavior** (Methods)
+
+OOP enables developers to model real-world entities, promote code reusability, and build maintainable software. Objects communicate with one another through method calls to perform tasks and solve problems.
+
+### Core Concepts
+
+- Class
+- Object
+- Instance Variable
+- Method
+- Reference Variable
+- Object Creation
+- Inheritance
+- Method Overriding
+- Object Interaction
+
+> At runtime, a Java program is nothing more than objects talking to other objects.
+>
+> 
+
+## Class
+
+A class is a blueprint or template used to create objects. It defines the state (instance variables) and behavior (methods) that objects of that type will have.
+
+### Key Points
+
+- Defines the structure of an object
+- Contains instance variables and methods
+- Used to create object instances
+- Acts as a blueprint or template
+
+### Example
+
+```java
+class Dog {
+
+    String name;
+    int age;
+
+    void bark() {
+        System.out.println("Woof!");
+    }
+}
+```
+
+> **Takeway**
+> A class describes how to make objects.
+> 
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Why This Matters
 
 Understanding classes and objects is essential for becoming an effective Java developer. Nearly every Java application is built using Object-Oriented Programming principles.
@@ -55,6 +130,8 @@ This chapter teaches how to model real-world entities using classes, create and 
 Most importantly, this chapter introduces the idea that:
 
 > At runtime, a Java program is nothing more than objects talking to other objects.
+>
+> 
 
 ---
 
