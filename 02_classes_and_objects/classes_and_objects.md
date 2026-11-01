@@ -52,11 +52,10 @@ This guide covers:
 11. [Method Overriding](#method-overriding)
 12. [Guessing Game Project](#guessing-game-project)
 13. [Key Concepts Learned](#key-concepts-learned)
-14. [Exercises](#exercises)
-15. [Quick Reference](#quick-reference)
-16. [Related Topics](#related-topics)
-17. [Why This Matters](#why-this-matters)
-18. [Additional Resources](#additional-resources)
+14. [Quick Reference](#quick-reference)
+15. [Related Topics](#related-topics)
+16. [Why This Matters](#why-this-matters)
+17. [Additional Resources](#additional-resources)
 
 ---
 
@@ -440,7 +439,7 @@ class Person {
 public class Main {
     public static void main(String[] args) {
         Person p1 = new Person();
-        p1.name = "Rahim";
+        p1.name = "Sourov";
         p1.introduce();
     }
 }
@@ -449,7 +448,7 @@ public class Main {
 ### Output
 
 ```text
-Hi, I am Rahim
+Hi, I am Sourov
 ```
 
 ### Example of Two Objects Working Together
@@ -565,6 +564,8 @@ Dog barks
 It allows subclasses to customize inherited behavior while keeping the same method name.
 
 > Method overriding allows specialized behavior in subclasses.
+>
+> 
 
 ---
 
@@ -576,46 +577,7 @@ Now let’s apply the concepts we have learned to a small project.
 
 Create a guessing game in which the computer chooses a random number and the player tries to guess it.
 
-### Example Code
-
-```java
-import java.util.Random;
-import java.util.Scanner;
-
-class GuessingGame {
-    private int target;
-
-    public GuessingGame() {
-        Random random = new Random();
-        this.target = random.nextInt(10) + 1;
-    }
-
-    public void play() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Guess a number between 1 and 10");
-
-        while (true) {
-            int guess = scanner.nextInt();
-
-            if (guess < target) {
-                System.out.println("Too low!");
-            } else if (guess > target) {
-                System.out.println("Too high!");
-            } else {
-                System.out.println("You guessed it right!");
-                break;
-            }
-        }
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        GuessingGame game = new GuessingGame();
-        game.play();
-    }
-}
-```
+* **Solution:** [Guessing Game](labs)
 
 ### What This Project Shows
 
@@ -644,43 +606,6 @@ By the end of this chapter, you should understand:
 - Inheritance promotes code reuse
 - Method overriding customizes behavior
 - OOP makes software easier to design and maintain
-
----
-
-## Exercises
-
-### Exercise 1
-
-Create a class called `Book` with:
-
-- `title`
-- `author`
-- `pages`
-
-Then create two objects and print their values.
-
-### Exercise 2
-
-Create a class called `Circle` with:
-
-- `radius`
-- `calculateArea()`
-
-### Exercise 3
-
-Create a class `Animal` and a subclass `Cat` that overrides the `sound()` method.
-
-### Exercise 4
-
-Create a class `Student` with:
-
-- `name`
-- `age`
-- `displayInfo()`
-
-### Exercise 5
-
-Build a simple number guessing game using OOP.
 
 ---
 
@@ -736,14 +661,7 @@ void methodName() {
 
 ## Related Topics
 
-- Constructors
-- Access Modifiers
-- Encapsulation
-- Polymorphism
-- Abstract Classes
-- Interfaces
-- Arrays and Objects
-- Memory Management in Java
+* [Primitives and References](../03_primitives_and_references/primitives_and_references.md)
 
 ---
 
@@ -759,16 +677,15 @@ This chapter helps you learn how to:
 - think in terms of objects instead of only instructions
 
 > Java programs are built from objects that work together to solve problems.
+>
+> 
 
 ---
 
 ## Additional Resources
 
-- Java Official Documentation: https://docs.oracle.com/en/java/
-- Head First Java
-- W3Schools Java OOP Tutorials
-- GeeksforGeeks Java OOP Guide
-- FreeCodeCamp Java Tutorials
+- **Head First Java**
+- [GeeksforGeeks](https://www.geeksforgeeks.org/java/object-oriented-programming-oops-concept-in-java/)
 
 ---
 
@@ -803,16 +720,4 @@ If you can answer these, you are already thinking in an OOP way.
 
 ---
 
-## Suggested Next Chapter
-
-After this chapter, the next topics you may study are:
-
-- Constructors
-- Encapsulation
-- Access Modifiers
-- Static Members
-- Polymorphism
-
-These topics build directly on the foundation taught in this chapter.
-
----
+*Last Modified : November 1, 2026*
