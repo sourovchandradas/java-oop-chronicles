@@ -6,25 +6,6 @@ In Java, variables come in two main types: primitive variables and reference var
 
 Primitive variables store actual values directly, while reference variables store a way to access objects in memory.
 
-This chapter introduces:
-
-- Primitive Variables
-- Reference Variables
-- Variable Declaration
-- Variable Naming Rules
-- Assignment
-- Object References
-- Object Creation
-- Dot Operator
-- Heap Memory
-- Arrays
-- Object Arrays
-- Null References
-- NullPointerException
-- Garbage Collection
-
-These concepts form the foundation of Java memory management and object-oriented programming.
-
 This guide covers:
 
 * **Primitive Variables** - store actual values
