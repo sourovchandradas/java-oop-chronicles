@@ -1,4 +1,5 @@
 // Exercise 03: University Course Enrollment Guard
+
 public class CourseEnrollment {
     public static void main(String[] args) {
         boolean hasPrerequisite = true;
