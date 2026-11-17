@@ -1,4 +1,4 @@
-# for Loops in Java
+# for Loop in Java
 
 ## Overview
 
