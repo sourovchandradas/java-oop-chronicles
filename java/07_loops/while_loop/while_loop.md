@@ -1,4 +1,4 @@
-# while Loops in Java
+# while Loop in Java
 
 ## Overview
 
