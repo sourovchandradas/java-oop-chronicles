@@ -1,4 +1,4 @@
-// Exercise 01: Row Wise Maximum Value Finder
+// Exercise 03: Row Wise Maximum Value Finder
 
 public class RowWiseMaximumValueFinder {
     public static void main(String[] args) {
